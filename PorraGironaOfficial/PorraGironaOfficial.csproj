@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-cristhian-stuani-goal-girona-fc-joy-la-liga-uruguayan-footballers-cristhian-ricardo-stuani-curbelo-neon-lights-soccer-laliga-spain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escudo-girona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-x-letter-a-multiply-s-angle-a-wing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-x-cross-close-symbol-icon-button-gui-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1a570389653c212de19c57821c5ef6f-trazo-de-puntuacion-con-guion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1988d1faba4d059eb4461d955af5cf61-x-marca-garabato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone-x-noir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone-x-noir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-dash-hyphen-at-sign-plus-and-minus-signs-minus-angle-text-rectangle-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-line-font-hyphen-rectangle-black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-soundbar-medion-life-64058-loudspeaker-television-strasys-consulting-5b0cfe4d52bf28.7254862415275781893389.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-horizontal-line-miscellaneous-sports-equipment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1a570389653c212de19c57821c5ef6f-trazo-de-puntuacion-con-guion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
