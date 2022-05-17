@@ -41,6 +41,7 @@ namespace PorraGironaOfficial
             this.linkRecuperarContra = new System.Windows.Forms.LinkLabel();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
+            this.btnCrearUsuario = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -183,6 +184,24 @@ namespace PorraGironaOfficial
             this.btnCerrar.TabStop = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // btnCrearUsuario
+            // 
+            this.btnCrearUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.btnCrearUsuario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnCrearUsuario.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnCrearUsuario.FlatAppearance.BorderSize = 3;
+            this.btnCrearUsuario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnCrearUsuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnCrearUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCrearUsuario.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearUsuario.ForeColor = System.Drawing.Color.LightCoral;
+            this.btnCrearUsuario.Location = new System.Drawing.Point(733, 608);
+            this.btnCrearUsuario.Name = "btnCrearUsuario";
+            this.btnCrearUsuario.Size = new System.Drawing.Size(329, 46);
+            this.btnCrearUsuario.TabIndex = 12;
+            this.btnCrearUsuario.Text = "CREAR USUARIO";
+            this.btnCrearUsuario.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -190,6 +209,7 @@ namespace PorraGironaOfficial
             this.BackgroundImage = global::PorraGironaOfficial.Properties.Resources.HD_wallpaper_cristhian_stuani_goal_girona_fc_joy_la_liga_uruguayan_footballers_cristhian_ricardo_stuani_curbelo_neon_lights_soccer_laliga_spain;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1079, 681);
+            this.Controls.Add(this.btnCrearUsuario);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.linkRecuperarContra);
@@ -229,6 +249,7 @@ namespace PorraGironaOfficial
         private System.Windows.Forms.LinkLabel linkRecuperarContra;
         private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.PictureBox btnCerrar;
+        private System.Windows.Forms.Button btnCrearUsuario;
     }
 }
 
