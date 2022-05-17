@@ -8,11 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
 
 namespace PorraGironaOfficial
 {
     public partial class Form1 : Form
     {
+        string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=porra";
+
         public Form1()
         {
             InitializeComponent();
